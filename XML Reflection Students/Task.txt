@@ -1,0 +1,31 @@
+<object type = “Student”>
+ <field type = “String” id = “name” value = “John”/>
+ <field type = “Integer” id = “age” value = “20”/>
+…
+</object>
+ 1я итерация
+ 
+ <object type = “Student”>
+ <field type = “String” id = “name” value = “John”/>
+ <field type = “Integer” id = “age” value = “20”/>
+ <method id = “get” return = “String”>
+  <arg id =”arg1”  type=”String”/>
+  <arg id =”arg2”  type=”Integer”/>
+ </method>
+</object>
+ 2я итерация
+ 
+ <object type = “Student”>
+ <field type = “String” id = “name” value = “John”/>
+ <field type = “Integer” id = “age” value = “20”/>
+ <method id = “get” return = “String”>
+  <arg id =”arg1”  type=”String”/>
+  <arg id =”arg2”  type=”Integer”/>
+ </method>
+ <field id = “name” value = “John”>
+  <Group >
+   //тут описание группы, также как студента
+  </Group>
+ </field>
+</object>
+ 3я итерация
